@@ -9,6 +9,7 @@ TagManager:
   - Pink
   - Purple
   - ColorChange
+  - Offscreen
   layers:
   - Default
   - TransparentFX

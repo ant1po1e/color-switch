@@ -46,6 +46,11 @@ public class PlayerController : MonoBehaviour
 		{
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		}
+
+		if (collider.tag == "Offscreen")
+		{
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		}
 	}
 
 	void SetRandomColor()
